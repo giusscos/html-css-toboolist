@@ -69,6 +69,20 @@ main{
 .sub-list li{
     margin: 10px 0 20px 10px;
 }
+.status{
+    padding: 0px 2px;
+    border: 1px solid;
+    border-radius: 30px;
+    display: inline-block;
+}
+.check{
+    color: green;
+    border-color: green;
+}
+.cross{
+    color: red;
+    border-color: 10px
+}
 .tag{
     color: #fff;
     font-size: 12px;
