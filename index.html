@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>
         ToBoolist
     </title>
 </head>
-<body>
-    <h1>
-        Ciao Mauri
-    </h1>
+<body class="debug">
+    <!-- Header principale -->
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="./img/Logo.png" alt="logo toboolist">
+            <h1>Toboolist</h1>
+        </div>
+    </header>
+    <!-- Contenuto della pagina  -->
+    <main>
+        <div class="main-container">
+            <!-- Bottoni per poter aggiungere sezioni e compiti -->
+            <div class="action-container">
+                <a class="action-item evi" href="#" title="aggiungi compito">add task</a>
+                <a class="action-item no-evi" href="#" title="aggiungi sezione">add section</a>
+            </div>
+            <!-- Liste di cose da fare potrebbero essere anche section, visto il nome del bottone in alto... -->
+            <ul>
+                <li> 
+                    <h2>
+                        &#9660; New Task
+                    </h2>
+                    <ul>
+                        <li>    
+                            &check; Quarterly Newsletter
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>
+                        &#9660; Today
+                    </h2>
+                    <ul>
+                        <li>&check; Recruiting blog post</li>
+                        <li>&check; Recruiting blog post</li>
+                        <li>&cross; Recruiting blog post</li>
+                        <li>&check; Recruiting blog post</li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>
+                        &#9660; Upcoming
+                    </h2>
+                    <ul>
+                        <li>&cross; Schedule meeting with Alex</li>
+                        <li>&check; Schedule meeting with Alex</li>
+                        <li>&check; Schedule meeting with Alex</li>
+                        <li>&check; Schedule meeting with Alex</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
