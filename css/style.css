@@ -28,22 +28,19 @@ main{
     padding: 30px 0;
 }
 .main-container{
-    padding: 10px 50px;
     margin: 0 auto;
     max-width: 70vw;
+    border-radius: 10px;
+    background-color: #fff;
 }
 .action-container,
-.list,
 .to-do-container{
-    margin: 5px 0;
     padding: 5px 40px;
-    background-color: #fff;
+   
 }
 .action-container{
     padding: 20px 40px;
-}
-.action-container{
-    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #eee;
 }
 .action-item{
     color: #aaa;
@@ -60,17 +57,15 @@ main{
     background-color: #00a2ff;
 }
 /* list section */
-.list{
-    border-radius: 0px 0px 10px 10px;
-}
 .item-list{
     margin: 30px 0;
 }
 .sub-list li{
-    margin: 10px 0 20px 10px;
+    margin: 10px 0 20px 5px;
 }
 .status{
     padding: 0px 2px;
+    margin-right: 5px;
     border: 1px solid;
     border-radius: 30px;
     display: inline-block;
@@ -113,7 +108,4 @@ main{
 /* Section to-do */
 .to-do{
     margin: 40px 0;
-}
-.to-do-container{
-    border-radius: 0px 0px 10px 10px;
 }
